@@ -1,0 +1,16 @@
+$mainContentMargin: 10px;
+
+.main.content
+{
+    min-height: 480px;
+    margin: $mainContentMargin;
+    margin-top: 53px + $mainContentMargin;
+}
+
+.main.container 
+{
+    .column
+    {
+        max-width: 450px;
+    }
+}

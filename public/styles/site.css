@@ -1,0 +1,7 @@
+.main.content {
+  min-height: 480px;
+  margin: 10px;
+  margin-top: 63px; }
+
+.main.container .column {
+  max-width: 450px; }

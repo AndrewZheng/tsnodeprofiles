@@ -1,0 +1,62 @@
+<form class="ui form" action='/users/update' method="POST">
+    <h4 class="ui dividing header">InnoCellence Team Member Profile</h4>
+    <div class="field">
+        <label>Name</label>
+        <div class="two fields">
+            <div class="field">
+                <input type="text" name="firstname" placeholder="First Name" value="{{FirstName}}"/>
+            </div>
+            <div class="field">
+                <input type="text" name="lastname" placeholder="Last Name" value="{{LastName}}" />
+            </div>
+        </div>
+    </div>
+    <div class="field">
+        <label>Discipline</label>
+        <input type="text" name="discipline" placeholder="Discipline" value="{{Discipline}}" />
+    </div>
+    <div class="two fields">
+        <div class="field">
+            <label>Email Address</label>
+            <input type="text" name="email" placeholder="Email Address" value="{{Email}}" />
+        </div>
+        <div class="field">
+            <label>Location</label>
+            <select class="ui fluid dropdown" name="location" data-value="{{Location}}">
+                <option value="">Select Location</option>
+                <option value="Dalian">Dalian</option>
+                <option value="Japan">Japan</option>
+                <option value="Shanghai">Shanghai</option>
+                <option value="Singapore">Singapore</option>
+          </select>
+        </div>
+    </div>
+    <div class="field">
+        <label>Summary</label>
+        <textarea rows="5" name='summary'>{{Profile.Summary}}</textarea>
+    </div>
+    <div class="field">
+        <label>Key Skills</label>
+        <textarea rows="2" name='keyskills'></textarea>
+    </div>
+    <div class="field">
+        <label>Career History</label>
+        <textarea rows="3" name='careerhistories'></textarea>
+    </div>
+    <div class="field">
+        <label>Education</label>
+        <textarea rows="3" name='educations'></textarea>
+    </div>
+    <div class="field">
+        <label>Languages</label>
+        <textarea rows="2" name='languages'></textarea>
+    </div>
+    <div class="field">
+        <label>Certificates and Awards</label>
+        <textarea rows="3" name='certificatesandawards'></textarea>
+    </div>
+
+    <input type="hidden" name="id" value="{{_id}}" />
+    <a class="ui button submit" tabindex="0">Submit</a>
+</form>
+<script src="/scripts/users/edit.js"></script>

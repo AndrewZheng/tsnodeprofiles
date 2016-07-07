@@ -1,0 +1,28 @@
+{
+  "name": "tsnodeprofiles",
+  "version": "0.0.1",
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "profile"
+  ],
+  "author": "andrew.zheng@innocellence.com",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.13.0",
+    "mongoose": "^4.5.2",
+    "mongoose-gen": "^2.1.1",
+    "request-promise": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-run": "^1.7.1",
+    "gulp-scss": "^1.3.17",
+    "gulp-watch": "^4.3.8",
+    "typescript": "^1.8.10"
+  }
+}

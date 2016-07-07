@@ -1,0 +1,15 @@
+{
+  "globalDependencies": {
+    "body-parser": "registry:dt/body-parser#0.0.0+20160619023215",
+    "express": "registry:dt/express#4.0.0+20160317120654",
+    "express-handlebars": "registry:dt/express-handlebars#0.0.0+20160316155526",
+    "express-serve-static-core": "registry:dt/express-serve-static-core#0.0.0+20160625155614",
+    "form-data": "registry:dt/form-data#0.0.0+20160316155526",
+    "mime": "registry:dt/mime#0.0.0+20160316155526",
+    "mongoose": "registry:dt/mongoose#3.8.5+20160629014609",
+    "node": "registry:dt/node#6.0.0+20160621231320",
+    "request": "registry:dt/request#0.0.0+20160524135346",
+    "request-promise": "registry:dt/request-promise#3.0.0+20160628092802",
+    "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
+  }
+}
